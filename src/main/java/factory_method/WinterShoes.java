@@ -26,4 +26,13 @@ public class WinterShoes implements FootWear {
         onDuty = false;
         System.out.println("Winter shoes off duty");
     }
+
+    @Override
+    public String toString() {
+        return "WinterShoes{" +
+                "price=" + price +
+                ", type='" + type + '\'' +
+                ", onDuty=" + onDuty +
+                '}';
+    }
 }

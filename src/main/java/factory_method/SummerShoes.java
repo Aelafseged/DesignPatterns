@@ -27,4 +27,13 @@ public class SummerShoes implements FootWear {
         onDuty = false;
         System.out.println("Summer shoes off duty");
     }
+
+    @Override
+    public String toString() {
+        return "SummerShoes{" +
+                "price=" + price +
+                ", type='" + type + '\'' +
+                ", onDuty=" + onDuty +
+                '}';
+    }
 }
