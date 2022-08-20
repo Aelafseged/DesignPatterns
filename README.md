@@ -10,4 +10,8 @@ Allows abstraction of a group or family object creations from a class that requi
 #3 Builder Design Pattern
 Lets you create object step by step using a helper builder class
 
+#--------- Structural Design Pattern-------
+
+#4 Adapter Design Pattern
+Give you a unified interface that allows objects with incompatible interfaces to collaborate
 
